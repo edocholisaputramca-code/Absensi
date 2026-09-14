@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 760" width="940" height="760" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+    <style>
+      .h{font-size:21px;font-weight:bold;fill:#111827}
+      .s{font-size:12.5px;fill:#6b7280}
+      .stage{font-size:14px;font-weight:bold;fill:#111827}
+      .bt{font-size:12.5px;font-weight:bold;fill:#111827}
+      .bs{font-size:11px;fill:#4b5563}
+      .num{font-size:11px;font-weight:bold;fill:#2563eb}
+    </style>
+  </defs>
+  <rect width="940" height="760" fill="#ffffff"/>
+  <text x="40" y="40" class="h">Alur Absensi Siswa — Dari Rumah Sampai Pulang</text>
+  <text x="40" y="62" class="s">SMPN 1 Mojosari · rancangan yang direkomendasikan: KARTU QR + HP/tablet guru, offline-first</text>
+
+  <!-- TAHAP 1 -->
+  <rect x="40" y="86" width="860" height="104" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="58" y="110" class="stage">TAHAP 1 · Persiapan — dilakukan sekali di awal semester</text>
+  <rect x="58" y="124" width="265" height="52" rx="8" fill="#fff" stroke="#93c5fd"/>
+  <text x="190" y="145" text-anchor="middle" class="bt">🏷️ Sekolah cetak kartu QR</text>
+  <text x="190" y="163" text-anchor="middle" class="bs">Kertas laminasi / stiker di kartu pelajar. Rp 3–10 rb.</text>
+  <rect x="337" y="124" width="265" height="52" rx="8" fill="#fff" stroke="#93c5fd"/>
+  <text x="469" y="145" text-anchor="middle" class="bt">📱 Nomor WA orang tua didaftarkan</text>
+  <text x="469" y="163" text-anchor="middle" class="bs">Untuk notifikasi otomatis &amp; pengajuan izin</text>
+  <rect x="616" y="124" width="265" height="52" rx="8" fill="#fff" stroke="#93c5fd"/>
+  <text x="748" y="145" text-anchor="middle" class="bt">📲 Guru piket pegang HP/tablet</text>
+  <text x="748" y="163" text-anchor="middle" class="bs">Cukup 1 HP Android, tidak perlu mesin mahal</text>
+
+  <line x1="470" y1="190" x2="470" y2="216" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- TAHAP 2 -->
+  <rect x="40" y="222" width="860" height="146" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="2"/>
+  <text x="58" y="246" class="stage">TAHAP 2 · Di gerbang / titik absen — setiap pagi, 5–10 menit</text>
+  <rect x="58" y="260" width="265" height="92" rx="8" fill="#fff" stroke="#6ee7b7"/>
+  <text x="190" y="281" text-anchor="middle" class="bt">A · KIOSK MANDIRI (paling cepat)</text>
+  <text x="190" y="300" text-anchor="middle" class="bs">Siswa tempelkan kartu ke kamera tablet</text>
+  <text x="190" y="316" text-anchor="middle" class="bs">di gerbang. Layar menampilkan nama +</text>
+  <text x="190" y="332" text-anchor="middle" class="bs">foto + bunyi “ting”. ~2 detik per siswa.</text>
+  <rect x="337" y="260" width="265" height="92" rx="8" fill="#fff" stroke="#6ee7b7"/>
+  <text x="469" y="281" text-anchor="middle" class="bt">B · DIPINDAI GURU PIKET</text>
+  <text x="469" y="300" text-anchor="middle" class="bs">Guru memegang HP, siswa menunjukkan</text>
+  <text x="469" y="316" text-anchor="middle" class="bs">kartu, guru pindai. Cocok kalau gerbang</text>
+  <text x="469" y="332" text-anchor="middle" class="bs">sempit / belum ada tablet. (PALING MURAH)</text>
+  <rect x="616" y="260" width="265" height="92" rx="8" fill="#fff" stroke="#6ee7b7"/>
+  <text x="748" y="281" text-anchor="middle" class="bt">C · LUPA / HILANG KARTU</text>
+  <text x="748" y="300" text-anchor="middle" class="bs">Ketik NIS di layar atau sebut nama,</text>
+  <text x="748" y="316" text-anchor="middle" class="bs">guru masukkan PIN + pilih alasan.</text>
+  <text x="748" y="332" text-anchor="middle" class="bs">Tercatat di jejak audit.</text>
+
+  <line x1="470" y1="368" x2="470" y2="394" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- TAHAP 3 -->
+  <rect x="40" y="400" width="860" height="128" rx="12" fill="#fef3c7" stroke="#fde68a" stroke-width="2"/>
+  <text x="58" y="424" class="stage">TAHAP 3 · Sistem memproses — otomatis, kurang dari 2 detik</text>
+  <rect x="58" y="438" width="196" height="76" rx="8" fill="#fff" stroke="#fcd34d"/>
+  <text x="156" y="459" text-anchor="middle" class="bt">1 · Validasi</text>
+  <text x="156" y="477" text-anchor="middle" class="bs">ID kartu dikenali &amp;</text>
+  <text x="156" y="492" text-anchor="middle" class="bs">siswa berstatus aktif</text>
+  <text x="156" y="507" text-anchor="middle" class="bs">di kelas yang benar</text>
+  <rect x="266" y="438" width="196" height="76" rx="8" fill="#fff" stroke="#fcd34d"/>
+  <text x="364" y="459" text-anchor="middle" class="bt">2 · Cegah titip absen</text>
+  <text x="364" y="477" text-anchor="middle" class="bs">Tolak absen ganda,</text>
+  <text x="364" y="492" text-anchor="middle" class="bs">batas kecepatan pindai,</text>
+  <text x="364" y="507" text-anchor="middle" class="bs">QR dinamis (opsional)</text>
+  <rect x="474" y="438" width="196" height="76" rx="8" fill="#fff" stroke="#fcd34d"/>
+  <text x="572" y="459" text-anchor="middle" class="bt">3 · Tentukan status</text>
+  <text x="572" y="477" text-anchor="middle" class="bs">≤ 07:15 → HADIR</text>
+  <text x="572" y="492" text-anchor="middle" class="bs">&gt; 07:15 → TERLAMBAT</text>
+  <text x="572" y="507" text-anchor="middle" class="bs">ada izin → SAKIT / IZIN</text>
+  <rect x="682" y="438" width="196" height="76" rx="8" fill="#fff" stroke="#fcd34d"/>
+  <text x="780" y="459" text-anchor="middle" class="bt">4 · Simpan</text>
+  <text x="780" y="477" text-anchor="middle" class="bs">Online → langsung ke server</text>
+  <text x="780" y="492" text-anchor="middle" class="bs">Internet putus → antrean</text>
+  <text x="780" y="507" text-anchor="middle" class="bs">lokal, sinkron otomatis</text>
+
+  <line x1="470" y1="528" x2="470" y2="554" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- TAHAP 4 -->
+  <rect x="40" y="560" width="860" height="128" rx="12" fill="#f3e8ff" stroke="#e9d5ff" stroke-width="2"/>
+  <text x="58" y="584" class="stage">TAHAP 4 · Yang terjadi otomatis — tanpa ada yang mengetik lagi</text>
+  <rect x="58" y="598" width="196" height="76" rx="8" fill="#fff" stroke="#d8b4fe"/>
+  <text x="156" y="619" text-anchor="middle" class="bt">💬 WA ke orang tua</text>
+  <text x="156" y="637" text-anchor="middle" class="bs">“Ananda Ahmad (VII-A)</text>
+  <text x="156" y="652" text-anchor="middle" class="bs">HADIR pukul 06:50”</text>
+  <text x="156" y="667" text-anchor="middle" class="bs">Terkirim hari itu juga</text>
+  <rect x="266" y="598" width="196" height="76" rx="8" fill="#fff" stroke="#d8b4fe"/>
+  <text x="364" y="619" text-anchor="middle" class="bt">📊 Dashboard wali kelas</text>
+  <text x="364" y="637" text-anchor="middle" class="bs">Daftar “belum hadir”</text>
+  <text x="364" y="652" text-anchor="middle" class="bs">muncul real-time,</text>
+  <text x="364" y="667" text-anchor="middle" class="bs">langsung ditindaklanjuti</text>
+  <rect x="474" y="598" width="196" height="76" rx="8" fill="#fff" stroke="#d8b4fe"/>
+  <text x="572" y="619" text-anchor="middle" class="bt">📈 Rekap otomatis</text>
+  <text x="572" y="637" text-anchor="middle" class="bs">Harian, bulanan, per siswa</text>
+  <text x="572" y="652" text-anchor="middle" class="bs">— tinggal klik cetak,</text>
+  <text x="572" y="667" text-anchor="middle" class="bs">tidak perlu menjumlahkan</text>
+  <rect x="682" y="598" width="196" height="76" rx="8" fill="#fff" stroke="#d8b4fe"/>
+  <text x="780" y="619" text-anchor="middle" class="bt">⚠️ Alarm dini</text>
+  <text x="780" y="637" text-anchor="middle" class="bs">Alpa 3 hari berturut →</text>
+  <text x="780" y="652" text-anchor="middle" class="bs">notif BK + wali kelas,</text>
+  <text x="780" y="667" text-anchor="middle" class="bs">draft surat panggilan</text>
+
+  <line x1="470" y1="688" x2="470" y2="714" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- TAHAP 5 -->
+  <rect x="40" y="720" width="860" height="30" rx="10" fill="#0f172a"/>
+  <text x="470" y="740" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">
+    TAHAP 5 · Pulang — siswa memindai kartu sekali lagi di titik yang sama, orang tua menerima notifikasi “sudah pulang”
+  </text>
+</svg>
